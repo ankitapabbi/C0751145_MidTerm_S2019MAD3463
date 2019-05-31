@@ -25,8 +25,14 @@ public class LambtonStringTools {
         String[] wordCount=name.split("\\s+");
         if(name == null && name.isEmpty() && wordCount.length<2) {
             return null;
+        }else {
         }
-        return name;
+        return null;
+    }
+
+    public String replaceTheString(String s1,String s2,String s3){
+
+        return null;
     }
 
 }

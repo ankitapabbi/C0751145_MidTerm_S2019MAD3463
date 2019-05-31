@@ -21,6 +21,8 @@ public class C0751145_MidTerm_S2019MAD3469 {
         System.out.println("Binary To Decimal Value : "+lst.binaryToDecimal(binary_value));
 
         //----------------Name Initials------------------------
+        System.out.println("Enter Full name: ");
+        String full_name = scanner.next();
 
 
 
