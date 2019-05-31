@@ -11,7 +11,19 @@ public class C0751145_MidTerm_S2019MAD3469 {
         Scanner scanner = new Scanner(System.in);
         String reverseString = scanner.next();
 
-       System.out.println( "Reversed String is : "+lst.reverseTheString(reverseString));
+        System.out.println( "Reversed String is : "+lst.reverseTheString(reverseString));
+
+        //----------------8421---------------------------
+        System.out.println("Enter a binary value: ");
+        String binary_value = scanner.next();
+        System.out.println("Binary To Decimal Value : "+lst.binaryToDecimal(binary_value));
+
+        //------------------------------------------------------
+        
+
+
+
+
 
 
 

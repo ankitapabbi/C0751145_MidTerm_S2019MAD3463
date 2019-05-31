@@ -15,6 +15,14 @@ public class LambtonStringTools {
         }
         return new String(str);
     }
-    
+
+    public int binaryToDecimal (String value){
+        int a = Integer.parseInt(value,2);
+        return a;
+    }
+
+    public String nameInitials(String name){
+        return null;
+    }
 
 }
