@@ -23,12 +23,18 @@ public class LambtonStringTools {
 
     public String nameInitials(String name){
         String[] wordCount=name.split("\\s+");
-        if(name == null && name.isEmpty() && wordCount.length<2) {
+        if(name == null || name.isEmpty() || wordCount.length<2) {
             return null;
         }else {
+            String[] testName = name.split(" ");
+            for (int i = 0; i < 2; i++) {
+                String s = testName[i];
+                System.out.println(s.charAt(0));
 
+            }
+            System.out.println(testName[2]);
         }
-        return null;
+        return new String(name);
     }
 
     public String replaceTheString(String userInput,String existingWord,String replaceBy){
