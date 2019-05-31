@@ -26,11 +26,12 @@ public class LambtonStringTools {
         if(name == null && name.isEmpty() && wordCount.length<2) {
             return null;
         }else {
+
         }
         return null;
     }
 
-    public String replaceTheString(String s1,String s2,String s3){
+    public String replaceTheString(String userInput,String existingWord,String replaceBy){
 
         return null;
     }

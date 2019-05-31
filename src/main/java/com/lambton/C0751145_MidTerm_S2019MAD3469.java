@@ -23,6 +23,11 @@ public class C0751145_MidTerm_S2019MAD3469 {
         //----------------Name Initials------------------------
         System.out.println("Enter Full name: ");
         String full_name = scanner.next();
+        lst.nameInitials(full_name);
+
+        //----------Replacing the String-----------------------
+        System.out.println("Enter a Sentence :");
+
 
 
 
