@@ -27,6 +27,16 @@ public class C0751145_MidTerm_S2019MAD3469 {
 
         //----------Replacing the String-----------------------
         System.out.println("Enter a Sentence :");
+        String sentence = scanner.next();
+        System.out.println("Enter the word to be replaced : ");
+        String existingWord = scanner.next();
+        System.out.println("Enter the Word replaced by : ");
+        String replaceBy = scanner.next();
+
+        lst.replaceTheString(sentence,existingWord,replaceBy);
+
+
+
 
 
 
