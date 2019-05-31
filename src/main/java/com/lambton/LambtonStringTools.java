@@ -22,7 +22,11 @@ public class LambtonStringTools {
     }
 
     public String nameInitials(String name){
-        return null;
+        String[] wordCount=name.split("\\s+");
+        if(name == null && name.isEmpty() && wordCount.length<2) {
+            return null;
+        }
+        return name;
     }
 
 }

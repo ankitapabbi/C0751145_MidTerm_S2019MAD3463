@@ -7,6 +7,8 @@ public class C0751145_MidTerm_S2019MAD3469 {
     public static void main(String[] args) {
 
         LambtonStringTools lst = new LambtonStringTools();
+
+        //----------------Reverse The String--------------
         System.out.println("Enter a string to be reversed:");
         Scanner scanner = new Scanner(System.in);
         String reverseString = scanner.next();
@@ -18,8 +20,8 @@ public class C0751145_MidTerm_S2019MAD3469 {
         String binary_value = scanner.next();
         System.out.println("Binary To Decimal Value : "+lst.binaryToDecimal(binary_value));
 
-        //------------------------------------------------------
-        
+        //----------------Name Initials------------------------
+
 
 
 
