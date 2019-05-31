@@ -33,7 +33,6 @@ public class LambtonStringTools {
 
     public String replaceTheString(String userInput,String existingWord,String replaceBy){
         String a = userInput.replaceAll(existingWord,replaceBy);
-
         return a;
     }
 
