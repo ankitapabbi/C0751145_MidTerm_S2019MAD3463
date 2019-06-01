@@ -41,8 +41,7 @@ public class C0751145_MidTerm_S2019MAD3469 {
 
         System.out.println("Enter a sentence");
         String abc = scanner.nextLine();
-
-        lst.checkOccurance(abc);
+        System.out.println(lst.checkOccurance(abc));
 
 
 

@@ -46,7 +46,7 @@ public class LambtonStringTools {
 
     public String checkOccurance(String value){
 
-
+        String[] ab=value.split("\\s+");
         return null;
     }
 
