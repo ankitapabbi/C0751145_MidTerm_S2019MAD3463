@@ -24,6 +24,7 @@ public class LambtonStringTools {
     public String nameInitials(String name){
         String[] wordCount=name.split("\\s+");
         if(name == null || name.isEmpty() || wordCount.length<2) {
+            System.out.println("Invalid name");
             return null;
         }else {
             String[] testName = name.split(" ");
@@ -33,8 +34,9 @@ public class LambtonStringTools {
 
             }
             System.out.println(testName[2]);
+            return new String(name);
         }
-        return new String(name);
+
     }
 
     public String replaceTheString(String userInput,String existingWord,String replaceBy){

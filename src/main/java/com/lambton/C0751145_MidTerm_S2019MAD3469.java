@@ -25,12 +25,12 @@ public class C0751145_MidTerm_S2019MAD3469 {
         System.out.println("Enter Full name: ");
         String full_name = scanner.nextLine();
 
-        if (lst.nameInitials(full_name) == null){
-            System.out.println("Invalid Name");
-        }else {
-            lst.nameInitials(full_name);
-        }
-
+//        if (lst.nameInitials(full_name) == null){
+//            System.out.println("Invalid Name");
+//        }else if(lst.nameInitials(full_name) != null){
+//            lst.nameInitials(full_name);
+//        }
+        lst.nameInitials(full_name);
 
         //----------Replacing the String-----------------------
         System.out.println("Enter a Sentence :");
