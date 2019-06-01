@@ -44,4 +44,10 @@ public class LambtonStringTools {
         return a;
     }
 
+    public String checkOccurance(String value){
+
+
+        return null;
+    }
+
 }
