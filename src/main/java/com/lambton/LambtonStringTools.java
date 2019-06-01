@@ -29,7 +29,7 @@ public class LambtonStringTools {
             String[] testName = name.split(" ");
             for (int i = 0; i < 2; i++) {
                 String s = testName[i];
-                System.out.println(s.charAt(0));
+                System.out.println(s.charAt(i));
 
             }
             System.out.println(testName[2]);
