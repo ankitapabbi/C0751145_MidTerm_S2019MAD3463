@@ -43,11 +43,5 @@ public class C0751145_MidTerm_S2019MAD3469 {
         String abc = scanner.nextLine();
         System.out.println(lst.checkOccurance(abc));
 
-
-
-
-
-
-
     }
 }
